@@ -1,0 +1,23 @@
+/* Estilos para el preloader */
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff; /* Cambia el color de fondo según desees */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+/* Ocultar el contenido principal inicialmente */
+.hidden {
+    display: none;
+}
+
+/* Una vez el preloader desaparezca, mostrar el contenido */
+#content.show {
+    display: block;
+}
